@@ -25,7 +25,7 @@ navbar:
 
 # ========== 首页文章列表 ==========
 index:
-  banner_img: /img/banner.png   # 首页 Banner 头图
+  banner_img: /img/banner.jpg   # 首页 Banner 头图
   banner_img_height: 100
   banner_mask_alpha: 0.3
   slogan:
@@ -38,7 +38,7 @@ index:
 
 # ========== 文章页 ==========
 post:
-  banner_img: /img/banner.png   # 文章页 Banner（也可换成单独的图）
+  banner_img: /img/banner.jpg   # 文章页 Banner（也可换成单独的图）
   toc:
     enable: true
     numbering: true

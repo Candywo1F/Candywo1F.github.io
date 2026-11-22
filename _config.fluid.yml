@@ -1,0 +1,91 @@
+# ========== 基础信息 ==========
+title: CandywolF
+subtitle: 副标题
+description: 博客描述
+keywords: 关键词
+author: CandywolF
+language: zh-CN
+timezone: Asia/Shanghai
+
+# ========== Banner（顶部大图）==========
+# 注意：Fluid 的头图按页面分层配置，顶层 banner_img 不会被读取。
+# 首页头图写在下方 index.banner_img，文章页头图写在 post.banner_img。
+banner_img_height: 100          # vh 百分比，100 = 全屏
+banner_mask_alpha: 0.3          # 遮罩透明度
+
+# ========== 导航栏 ==========
+navbar:
+  blog_title: CandywolF
+  menu:
+    - { key: 'home', link: '/', icon: 'icon-home' }
+    - { key: 'archive', link: '/archives/', icon: 'icon-archive' }
+    - { key: 'category', link: '/categories/', icon: 'icon-category' }
+    - { key: 'tag', link: '/tags/', icon: 'icon-tags' }
+    - { key: 'about', link: '/about/', icon: 'icon-user' }
+
+# ========== 首页文章列表 ==========
+index:
+  banner_img: /img/banner.png   # 首页 Banner 头图
+  banner_img_height: 100
+  banner_mask_alpha: 0.3
+  slogan:
+    enable: true
+    text: 一句标语
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+# ========== 文章页 ==========
+post:
+  banner_img: /img/banner.png   # 文章页 Banner（也可换成单独的图）
+  toc:
+    enable: true
+    numbering: true
+  copyright:
+    enable: true
+    content: '本博客所有文章除特别声明外，均采用 CC BY-SA 4.0 协议'
+  comments:
+    enable: true
+    type: giscus  # 或 waline / utterances
+
+# ========== 侧边栏 ==========
+sidebar:
+  position: right  # right 或 left
+  avatar: /img/avatar.png
+  name: CandywolF
+  intro: 一句话介绍
+  icons: []
+
+# ========== 页脚 ==========
+footer:
+  content: |
+    <a href="https://hexo.io" target="_blank">Hexo</a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank">Fluid</a>
+
+# ========== 搜索 ==========
+search:
+  enable: true
+  path: /local-search.xml
+  field: post
+  content: true
+
+# ========== 代码高亮 ==========
+code:
+  copy_btn: true
+  highlight:
+    enable: true
+    style: github  # 代码高亮主题
+
+# ========== 数学公式 ==========
+math:
+  enable: false  # 需要时开启
+
+# ========== 暗色模式 ==========
+dark_mode:
+  enable: true
+
+# ========== 图片懒加载 ==========
+lazyload:
+  enable: true
